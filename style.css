@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    padding:0;
+}
+.main{
+    float:left;
+    width:100%;
+    overflow:hidden;
+    position:relative;
+}
+.banner{
+    margin-top:30px;
+    padding:20px 0;
+    float:left;
+    width:203%;
+    background-color:#2196f333;
+}
+.slide{
+    float:left;
+    margin-right:10px;
+    height:450px;
+    width:374px;
+}
+.slide img{
+    object-fit:cover;
+    height:100%;
+    width:100%;
+}
+.arrow{
+    position:absolute;
+    top:45%;
+    background-color:white;
+    border-radius:50%;
+    padding:10px 19px;
+    font-weight:bold;
+    font-size:20px;
+}
+#next{
+    right:20px;
+}
+#prev{
+    left:10px;
+}
